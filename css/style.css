@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+} 
+
+#message {
+  width: 100%;
+  height: 38px;
+  padding: 10px 17px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #1cd1b0;
+}
+
+#message h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#navbar {
+  margin-top: 38px;
+  width: 100%;
+  height: 100px;
+  background-color: #00669f;
+  display: flex;
+  align-items: center;
+  padding: 0px 17px;
+  box-shadow: 0px 5px 10px 0px #000000;
+}
+
+.container {
+  margin: 50px 100px;  
+  padding: 0 150px;
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+
+.card {
+  width: 300px;
+  height: 550px;
+  background-color: #f3f3f3;
+  border-radius: 15px 15px 0 0;
+  position: relative;
+}
+
+.card-banner {
+  width: 100%;
+  height: 40%;
+  background-repeat: no-repeat;
+  border-radius: 15px 15px 0 0;
+}
+
+.card-banner-batman{ 
+  background-image: url("../img/Batman-banner.png");
+  
+}
+
+.card-banner-harley{ 
+  background-image: url("../img/Harley-banner.png");
+  
+}
+
+.icon-heart {
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+
+.avatar {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+}
+
+.avatar-radius {
+  border-radius: 50%;
+}
+
+.card-container {
+  margin: 50px 20px 0px 20px;  
+  text-align: center;
+}
+
+.card-container h2 {
+  margin-bottom: 15px;
+}
+
+.card-button {
+  margin-top: 30px;
+  background-color:#00669F;
+  color: #F3F3F3;
+  padding: 15px 40px;
+  border: 1px solid #00669F;
+
+}
+
+.footer-container {
+  width: 100%;
+  height: 50px;
+  padding: 15px 10px;
+  background-color:#00669F;
+  position: relative;
+  bottom: 0;
+  color: #F3F3F3;
+}
